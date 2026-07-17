@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+#ddev-generated
+
 # By default, mounted directories have the root owner, we need to fix this.
 sudo chown $USER: ~/.cursor
 sudo chown $USER: ~/.cursor/*
