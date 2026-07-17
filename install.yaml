@@ -1,0 +1,6 @@
+name: ddev-cursor
+
+project_files:
+  - config.ddev-cursor.yaml
+  - docker-compose.ddev-cursor.yaml
+  - ddev-cursor/ddev-cursor-fixes.sh

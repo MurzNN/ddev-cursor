@@ -1,0 +1,4 @@
+#ddev-generated
+hooks:
+  post-start:
+    - exec: ".ddev/ddev-cursor/ddev-cursor-fixes.sh"

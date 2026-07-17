@@ -1,0 +1,15 @@
+#ddev-generated
+services:
+  web:
+    volumes:
+      # Cursor Server caches
+      - "ddev-cursor-home:$HOME/.cursor"
+      - "ddev-cursor-home-server:$HOME/.cursor-server"
+      - "$HOME/.cache/ddev-cursor/.cursor-server/bin:$HOME/.cursor-server/bin"
+      - "$HOME/.local/state/ddev-cursor/.cursor-server/extensions:$HOME/.cursor-server/extensions"
+      - "$HOME/.cache/ddev-cursor/.cursor-server/extensionsCache:$HOME/.cursor-server/extensionsCache"
+
+volumes:
+  # Per-project volumes
+  ddev-cursor-home:
+  ddev-cursor-home-server:
